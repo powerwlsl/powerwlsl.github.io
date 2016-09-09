@@ -1,63 +1,97 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-	<title>Shiba Inu World
-</title>
+	<title>Shiba Inu World</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="app.js"></script>
 </head>
 
 <body>
-<h1 style="font-size:40px" align="center"> Welcome to Shiba Inu World!</h1>
-<div>
-
-
- <h2 style="color:#6699ff"> 1. Why Shiba? </h2>
-<p style="font-size:20px"> The Shiba Inu is very challenging to raise and train. A bold, high-spirited "big dog in a small body," he must always be kept on-leash, for he has a high prey drive and quick reflexes and will pursue anything that moves.</p>
-
-<img src = "http://www.yourpurebredpuppy.com/dogbreeds/photos-RS/shibainuf2.jpg" width="200" height="500" align="top" alt="Shiba photo">
-<img src = "http://st2.depositphotos.com/1498528/5901/v/950/depositphotos_59016607-Explosion-bubble-woof.jpg" width="300" height="300" alt="Woof speech bubble">
-
-<h2 style="color:#ff5050"> 2. Shiba is .. </h2>
-<ul style="font-size:20px">
-<li> sturdy, strong and conveniently-sized.</li>
-<li> smart and clever</li>
-<li> energetic, bold and spirited</li>
-</ul>
-
-<h2 style="color:#a852ff">3. Shiba Coat Colors</h2>
-
-<table border=1>
-<tr>
-	<th>Photos</th><th>Colors</th>
-</tr>
-<tr>
-	<td><img src="https://www.shibas.org/images/redfem.jpg" width="200" height="200" alt="red shiba"></td><td><p align="center">Red</p></td>
-</tr>
-
-<tr>
-	<td><img src="https://www.shibas.org/images/sesfem2.jpg" width="200" height="200" alt="seasame shiba"></td>
-	<td><p align="center">Seasame</p></td>
-</tr>
-
-<tr>
-	<td><img src="https://www.shibas.org/images/bltnfem_v02.jpg" width="200" height="200" alt="black tan shiba"></td><td><p align="center" >Black and Tan</p></td>
-</tr>
-
-</table>
-
-<h2 align="center" style="color:#206cdf"> Are you interested in adopt one? </h2>
-
-<form action="submit.html">
 
 
 
-Name :<br><input type="text" name="name"><br>
-Email :<br><input type="text"  name="email"><br>
-Color :<br><input type="radio" name="color" value="Red" checked>Red<br>
-<input type="radio" name="color" value="Seasame" >Seasame<br>
-<input type="radio" name="color"  value="Black and Tan" >Black and Tan<br>
+<main>
 
-<input type="submit" value="Submit">
-</form>
+<div id="welcome">
+<nav id ="nav-bar">
+
+<a href="index.html">Home</a>
+<a href="about.html">About Shiba</a>
+<a href="gallery.html">Photo Gallery</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+ <p>Shiba Inu World</p>
+
+
+</div>
+
+
+
+
+	<div id="orange">
+		<h3> Did you know?</h3>
+		<p> Shibas are considered the oldest and smallest of Japan's dogs</p>
+		<img src="shibaicon.png"/>
+
+	</div>
+
+
+	<div class="shibais">
+		
+		<div class="blackshiba">
+			<img src="blackshiba.png"/>
+		</div>
+
+
+		<div class="expl">
+			<h3 > Shiba is..</h3>
+
+			<ul>
+				<li> sturdy, strong and conveniently-sized</li>
+				<li> smart and clever</li>
+				<li> energetic, bold and spirited</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+
+<div class="find">
+	<p id="title"> Find a Puppy for YOU</p>
+	<form action="submit.html">
+		<p class="form">Color of fur >>
+		<input type="checkbox" name="color" value="Brown"/> Brown
+		<input type="checkbox" name="color" value="Tan Black"/> Tan Black
+		<input type="checkbox" name="color" value="White"/> White
+	</p>
+
+
+	<p class="form">Age >>
+
+		<select name="age"> 
+		<option value="baby">2 weeks - 1 month</option>
+		<option value="child">1 month - 3 months</option>
+		<option value="mid">3 months - 1 year</option>
+		<option value="adult">1 year - 5 years</option>
+		</select>
+	</p>
+
+	<p class="form">ZIP CODE >>
+		<input type="text" name="zip"/>
+		<input type="submit" value="search" />
+	</p>
+
+		
+	</form>	
+
+
+
+</div>
 
 
 
@@ -72,7 +106,9 @@ Check <a href="http://www.akc.org/dog-breeds/shiba-inu/">this</a> out! <br>  Wha
 	<h3>-Cons</h3>
 	<p>I like this website overall, but there is one thing I don't like about. There are too much infornmation in one main page, so it was hard to find the info I wanted. And it gets worse if you read this website on your phone because of the long scroll.</p>
 
-</div>
+
+</main>
+
 
 <footer>
 
