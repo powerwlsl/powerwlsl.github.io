@@ -1,2 +1,3 @@
-$(document).ready(main);
-
+$(document).ready(function() {
+    $('div').fadeIn('slow');
+});

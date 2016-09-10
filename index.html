@@ -5,7 +5,17 @@
 	<title>Shiba Inu World</title>
 
 <link rel="stylesheet" type="text/css" href="main.css">
-<script type="text/javascript" src="app.js"></script>
+
+       <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+	<!-- // <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
+	
+	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+
+
+
+
+
 </head>
 
 <body>
@@ -15,16 +25,16 @@
 <main>
 
 <div id="welcome">
-<nav id ="nav-bar">
+	<nav id ="nav-bar">
 
-<a href="index.html">Home</a>
-<a href="about.html">About Shiba</a>
-<a href="gallery.html">Photo Gallery</a>
-<a href="contact.html">Contact</a>
+	<a href="index.html">Home</a>
+	<a href="about.html">About Shiba</a>
+	<a href="gallery.html">Photo Gallery</a>
+	<a href="contact.html">Contact</a>
 
-</nav>
+	</nav>
 
- <p>Shiba Inu World</p>
+ <p><a href="index.html">Shiba Inu World</a></p>
 
 
 </div>
@@ -35,7 +45,8 @@
 	<div id="orange">
 		<h3> Did you know?</h3>
 		<p> Shibas are considered the oldest and smallest of Japan's dogs</p>
-		<img src="shibaicon.png"/>
+		<a href="https://en.wikipedia.org/wiki/Shiba_Inu" target="_blank"><img src="shibaicon.png" /></a>
+		<div id="hidden">wanna know more?</div>
 
 	</div>
 
@@ -62,14 +73,25 @@
 
 
 <div class="find">
-	<p id="title"> Find a Puppy for YOU</p>
+
+	<p id="title"> Find a Puppy</p>
+	
 	<form action="submit.html">
-		<p class="form">Color of fur >>
+	
+	<p class="form">Color of fur >>
 		<input type="checkbox" name="color" value="Brown"/> Brown
 		<input type="checkbox" name="color" value="Tan Black"/> Tan Black
 		<input type="checkbox" name="color" value="White"/> White
 	</p>
 
+
+	<p class="form">Name >>
+	<input type="text" name="name"/>
+	</p>
+
+	<p class="form">Email >>
+	<input type="email" name="email"/>
+	</p>
 
 	<p class="form">Age >>
 
@@ -83,10 +105,12 @@
 
 	<p class="form">ZIP CODE >>
 		<input type="text" name="zip"/>
-		<input type="submit" value="search" />
-	</p>
-
 		
+	</p>
+	<p class="form">
+		<input type="submit" value="Find" />
+
+	</p>	
 	</form>	
 
 
@@ -115,6 +139,8 @@ Check <a href="http://www.akc.org/dog-breeds/shiba-inu/">this</a> out! <br>  Wha
 <p align="center" style="color:#5252ff" > If you see more information about Shiba Inu, visit <a href="http://www.akc.org/dog-breeds/shiba-inu/"> HERE</a>!</p>
 
 </footer>
+
+
 </body>
 
 </html>

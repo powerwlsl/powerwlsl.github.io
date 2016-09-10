@@ -47,18 +47,24 @@ body{
 	background-position: center center;
 	width: 100%;
 	height: 500px;
-	
+
 
 	
 
 }
+
 #welcome p{
 	font-size: 40px;
 	font-family: Courier;
-	color : white;
+	
 	text-align: right;
-	padding-top: 320px;
+	padding-top: 250px;
 	padding-right: 20px;
+}
+
+#welcome p a{
+	text-decoration: none;
+	color : #fdede9;
 }
 
 #orange{
@@ -68,7 +74,7 @@ body{
 	background-color:#ff5c33;
 	color:#ffeee6;
 	height: 350px;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 
 }
 
@@ -90,8 +96,21 @@ body{
 
 }
 
+
+/*#orange img:hover{
+	background-color: #ff7c55;
+
+}*/
+
+#hidden{
+	display: none;
+	color:black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
 .shibais{
 	background-color: #fcdcd3;
+
 
 }
 .blackshiba{
@@ -116,13 +135,16 @@ body{
 .expl{
 	display: inline-block;
 	margin-left: 20px;
-	margin-top: 50px;
+	margin-top: 30px;
 	
 	font-size: 20px;
 	font-family: Courier;
 	color:#F05325;
 
 
+}
+.expl ul{
+	line-height: 40px;
 }
 
 
@@ -142,6 +164,9 @@ body{
 
 		
 	}
+	.find{
+		margin-top: -20px;
+	}
 
 
 }
@@ -160,9 +185,33 @@ body{
 }
 
 .find{
-	border-style: solid;
-	padding: 0px 0px 20px 30px;
+
+	padding: 10px 0px 20px 30px;
+
+	background-color: #f9baa7;
+
+
+
+
 }
+
+
+
+input[type=submit] {
+    padding:5px 20px 5px 14px; 
+    background: #a9dcd9;
+    border-color: #0066A2;
+    cursor:pointer;
+    border-radius: 5px; 
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+
 
 
 
